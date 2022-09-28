@@ -10866,4 +10866,10 @@ table tr:last-child {
   color: #cacaca;
 }
 
+@media only screen and (max-width: 768px) {
+  .col5 {
+    width: 100%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
