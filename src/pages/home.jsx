@@ -1,6 +1,7 @@
 import React from "react";
 import Banner from "../components/banner"
 import Stars from "../components/stars"
+import Circle from "../components/circle"
 import {data} from "../data.js"
 export default class HomePage extends React.Component {
     constructor(props){
@@ -30,16 +31,32 @@ export default class HomePage extends React.Component {
                             <Stars />
                         </div>
                         <div className="col5">
-                            
+                            <Circle 
+                                value={data.overview.cost.value} 
+                                unit={data.overview.cost.unit} 
+                                title={data.overview.cost.title} 
+                            />
                         </div>
                         <div className="col5">
-                            
+                            <Circle 
+                                value={data.overview.prepTime.value} 
+                                unit={data.overview.prepTime.unit} 
+                                title={data.overview.prepTime.title} 
+                            />
                         </div>
                         <div className="col5">
-                            
+                            <Circle 
+                                value={data.overview.cookTime.value} 
+                                unit={data.overview.cookTime.unit} 
+                                title={data.overview.cookTime.title} 
+                            />
                         </div>
                         <div className="col5">
-                            
+                            <Circle 
+                                value={data.overview.restingTime.value} 
+                                unit={data.overview.restingTime.unit} 
+                                title={data.overview.restingTime.title} 
+                            />
                         </div>
                     </div>
                     <div className="row">

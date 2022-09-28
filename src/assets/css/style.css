@@ -10797,7 +10797,7 @@ h2, .h2 {
 
 .stars_cont {
   display: flex;
-  height: 3rem;
+  height: 5rem;
   margin-bottom: 1rem;
   align-items: center;
   justify-content: center;
@@ -10806,6 +10806,17 @@ h2, .h2 {
 .title {
   text-align: center;
   width: 100%;
+}
+
+.circle {
+  border: solid #cacaca 1px;
+  border-radius: 2.5rem;
+  width: 5rem;
+  height: 5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */

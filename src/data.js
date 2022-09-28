@@ -24,6 +24,11 @@ const data = {
             title: "Cooking Time",
             value: 0,
             unit: "mn"
+        },
+        restingTime:{
+            title: "Resting Time",
+            value: 10,
+            unit: "mn"
         }
 
     },
