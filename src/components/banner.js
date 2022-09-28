@@ -16,16 +16,3 @@ export default class Banner extends React.Component {
     }
 }
 
-
-// import {data} from "../data.js"
-
-// export default function Banner(){
-   
-        
-//         return(
-//             <>
-//             {/* <img src={data.image} alt="Banner" className="banner" /> */}
-//             </>        
-//         )
-  
-// }

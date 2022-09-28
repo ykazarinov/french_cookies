@@ -1,5 +1,6 @@
 import React from "react";
 import Banner from "../components/banner"
+import Stars from "../components/stars"
 import {data} from "../data.js"
 export default class HomePage extends React.Component {
     constructor(props){
@@ -23,6 +24,21 @@ export default class HomePage extends React.Component {
                     </div>
                     <div className="row">
                         <div className="col-12">
+                            <h2>{data.overview.subTitle}</h2>
+                        </div>
+                        <div className="col5">
+                            <Stars />
+                        </div>
+                        <div className="col5">
+                            
+                        </div>
+                        <div className="col5">
+                            
+                        </div>
+                        <div className="col5">
+                            
+                        </div>
+                        <div className="col5">
                             
                         </div>
                     </div>
