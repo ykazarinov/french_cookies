@@ -1,0 +1,21 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+
+$text_grey: #564c4b;
+$border_grey: #cacaca;
+
+*{
+    font-family: Roboto, sans-serif;
+    color: $text_grey;
+}
+
+main{
+    margin-top: 1rem;
+}
+
+.banner{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    box-shadow: $border_grey 0 1px 2px;
+}
