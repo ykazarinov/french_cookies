@@ -2,6 +2,7 @@ import React from "react";
 import Banner from "../components/banner"
 import Stars from "../components/stars"
 import Circle from "../components/circle"
+import Table from "../components/table"
 import {data} from "../data.js"
 export default class HomePage extends React.Component {
     constructor(props){
@@ -61,7 +62,10 @@ export default class HomePage extends React.Component {
                     </div>
                     <div className="row">
                         <div className="col-12">
-                            
+                            <h2>{data.ingredients.subTitle}</h2>
+                        </div>
+                        <div className="col-12">
+                            <Table />
                         </div>
                     </div>
                 </div>
